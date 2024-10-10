@@ -45,10 +45,11 @@ go get github.com/dshills/wiggle-tools/container
 
 ```go
 import "github.com/dshills/wiggle-tools/vector"
+import "github.com/dshills/wiggle-tools/vector/pinecone"
 
 // Example using Pinecone
-client := pinecone.NewClient(apiKey)
-vec := vector.New(client)
+client := pinecone.NewClient(apiKey, dataPlaneURL, controlPlaneURL)
+vec := pinecone.NewVectorDB(client, "namespace")
 // Interact with the vector database...
 ```
 
@@ -56,9 +57,11 @@ vec := vector.New(client)
 
 ```go
 import "github.com/dshills/wiggle-tools/container"
+import "github.com/dshills/wiggle-tools/container/docker"
 
 // Example using Docker
-docker := container.NewDockerInstance(options)
+dock := docker.NewDocker()
+instance, err := dock.StartContainer(image, options)
 // Start, stop, and manage containers...
 ```
 
