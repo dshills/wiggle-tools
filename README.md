@@ -1,9 +1,9 @@
 # Wiggle Tools
 
-This repository provides tools for use with the [Wiggle library](https://github/com/dshills/wiggle), focusing on container management and vector database integrations. It houses the vector and container packages, designed to be lightweight, dependency-free solutions for handling operations in these areas.
+This repository provides tools for use with the [Wiggle library](https://github.com/dshills/wiggle), focusing on container management and vector database integrations. It houses the vector and container packages, designed to be lightweight, dependency-free solutions for handling operations in these areas.
 
 
-![logo](https://github.com/wiggle/logo/wiggle_logo_256x256.png)
+![logo](https://raw.githubusercontent.com/dshills/wiggle/refs/heads/main/logo/wiggle_logo_512x512.png)
 
 ## Important Note
 
