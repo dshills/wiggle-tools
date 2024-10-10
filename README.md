@@ -8,19 +8,19 @@ This repository provides tools for use with the Wiggle framework, focusing on co
 
 The vector package provides an abstraction for interacting with vector databases. It offers a flexible interface for working with multiple vector database backends, including Pinecone and Qdrant.
 
-	•	Features:
-	•	Generic Vector interface to support multiple vector databases.
-	•	Implementations for popular vector databases like Pinecone and Qdrant.
-	•	Extensible for adding new vector database support with minimal effort.
+- Features:
+    - Generic Vector interface to support multiple vector databases.
+    - Implementations for popular vector databases like Pinecone and Qdrant.
+    - Extensible for adding new vector database support with minimal effort.
 
 ### container
 
 The container package offers a generic way to interact with containerization platforms such as Docker. It enables seamless container management, with support for starting, stopping, and waiting for containers.
 
-	•	Features:
-	•	A unified interface for managing containers (Instance, Options).
-	•	Current implementation supports Docker, with future expansion to other container platforms.
-	•	No external dependencies, keeping the design lightweight and easy to integrate.
+- Features:
+    - A unified interface for managing containers (Instance, Options).
+	- Current implementation supports Docker, with future expansion to other container platforms.
+	- No external dependencies, keeping the design lightweight and easy to integrate.
 
 ## Installation
 
